@@ -65,12 +65,9 @@ const PortfolioPage = () => {
   Portfolio
   <span className="absolute -bottom-2 left-0 w-full h-1 bg-pink-500 rounded-full"></span>
 </h1>
-
-
-
-        </div>
+  </div>
         
-      </header>
+</header>
       <section id="about" className="my-8 px-4">
       {/* About Me Section */}
       <div className="flex flex-col sm:flex-row items-center justify-center p-8">
@@ -100,27 +97,23 @@ const PortfolioPage = () => {
   </div>
 </div>
 
-
-
-        
-
-        {/* About Me Text */}
-        <div className="sm:ml-8 w-full sm:w-2/3 text-center sm:text-left" data-aos="fade-up">
-        <div className="text-center mb-4">
-  <h2 className="text-3xl font-bold absolute left-[-20px] top-[-20px]">
+{/* About Me Text */}
+<div className="sm:ml-8 w-full sm:w-2/3 text-center sm:text-left" data-aos="fade-up">
+<div className="text-center mb-4">
+<h2 className="text-3xl font-bold absolute left-[-20px] top-[-20px]">
     CHEBROLU BHAVYASREE
-  </h2>
+</h2>
 
-  <h2 className="text-3xl font-semibold inline-block relative mt-12">
+<h2 className="text-3xl font-semibold inline-block relative mt-12">
     About Me
     <span className="absolute -bottom-2 left-0 w-full h-1 bg-pink-500 rounded-full"></span>
   </h2>
 </div>
 
-          <p className="mt-8">
-          Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Science. I'm an aspiring and detail-oriented software developer with a strong foundation in full-stack web development, especially the MERN stack. I love building user-friendly, scalable applications that solve real-world problems. I'm always eager to explore new technologies, take on challenging projects, and grow as a developer. With a focus on clean code and continuous learning, I aim to create meaningful digital experiences that leave a lasting impact.
-          </p>
-          <div className="mt-8 text-center" data-aos="fade-up">
+<p className="mt-8">
+Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Science. I'm an aspiring and detail-oriented software developer with a strong foundation in full-stack web development, especially the MERN stack. I love building user-friendly, scalable applications that solve real-world problems. I'm always eager to explore new technologies, take on challenging projects, and grow as a developer. With a focus on clean code and continuous learning, I aim to create meaningful digital experiences that leave a lasting impact.
+  </p>
+<div className="mt-8 text-center" data-aos="fade-up">
   <a
     href="https://drive.google.com/file/d/1oNLDPtbgO32Lk4Kid9LCxkN_RX7eJA3_/view?usp=sharing"
     target="_blank"
@@ -130,16 +123,12 @@ const PortfolioPage = () => {
     📄 View Resume
   </a>
 </div>
-        </div>
-        
+</div>
+</div>
+</section>      
 
-      </div>
-      
-      
-      </section>
-
-      {/* Skills Section */}
-      <section id="skills" className="my-8 px-4"> 
+  {/* Skills Section */}
+  <section id="skills" className="my-8 px-4"> 
 <div className="p-10">
   <h2 className="text-3xl font-bold relative text-center mb-10 inline-block" data-aos="fade-up">
     Skills
@@ -378,12 +367,10 @@ const PortfolioPage = () => {
     </div>
   )}
 </div>
+</div>
+</section>
 
-
-    </div>
-    </section>
-
-    <section id="education" className="my-8 px-4">
+<section id="education" className="my-8 px-4">
 <div className="p-8 flex flex-col md:flex-row items-center justify-center gap-12" data-aos="fade-up">
   {/* Education Section */}
   <div className="flex-1" data-aos="fade-right">
@@ -533,19 +520,19 @@ const PortfolioPage = () => {
 >
   Send Message
 </a>
+</div>
 
-        </div>
-
-      </form>
-    </div>
-  </div>
+</form>
+</div>
+</div>
 </div>
 </section>
 
-    </div>
-    
-    
-  );
+</div>
+
+
+);
 };
 
 export default PortfolioPage;
+      
