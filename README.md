@@ -42,7 +42,7 @@ Each project includes a brief overview, its purpose, relevant technologies used 
 
 Education
 ------------
-Information about my ongoing B.Tech in Computer Science Engineering, along with my earlier 
+Information about my ongoing B.Tech in Computer Science Engineering, along with my earlier schooling. 
 
 Contact
 -----------

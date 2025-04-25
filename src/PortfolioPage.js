@@ -260,6 +260,13 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
         </div>
 
         {/* Project 3 - Food Donation System */}
+        <div className="relative">
+  {/* Mail & Password Info */}
+  <div className="absolute -bottom-24 left-1/2 transform -translate-x-1/2 bg-white text-black text-sm px-4 py-2 rounded shadow-md z-10">
+    <p><strong>Mail:</strong> bhavyasreechebrolu@gmail.com</p>
+    <p><strong>Password:</strong> 72117211</p>
+  </div>
+
         <div className="bg-[#2c3e50] rounded-xl p-6 shadow-lg" data-aos="fade-up">
           <h3 className="text-xl font-semibold text-white mb-4">Food Donation & Rescue System</h3>
           <img
@@ -297,7 +304,7 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
           </div>
         </div>
       </div>
-
+      </div>
       {/* Modal */}
 {isModalOpen && (
   <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center px-2 sm:px-4">
@@ -319,7 +326,7 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
     </div>
   </div>
 )}
-<div className="text-center mt-10">
+<div className="text-center mt-28">
   <button
     onClick={handleClick}
     className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300 text-lg font-medium"
