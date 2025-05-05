@@ -115,7 +115,7 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
   </p>
 <div className="mt-8 text-center" data-aos="fade-up">
   <a
-    href="https://drive.google.com/file/d/1oNLDPtbgO32Lk4Kid9LCxkN_RX7eJA3_/view?usp=sharing"
+    href="https://drive.google.com/file/d/1-RvO6kV_YTOQG4XGCNXp_95K_bQtddcr/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300 text-lg font-medium"
