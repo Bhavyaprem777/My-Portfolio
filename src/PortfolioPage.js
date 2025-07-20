@@ -304,6 +304,47 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
           </div>
         </div>
       </div>
+       {/* Project 4 - Voice Dubbing App */}
+<div className="bg-[#2c3e50] rounded-xl p-6 shadow-lg" data-aos="fade-up">
+  <h3 className="text-xl font-semibold text-white mb-4">Voice Dubbing App</h3>
+  <img
+    src="https://play-lh.googleusercontent.com/31rgFTQOFNYRTrYr-gyWLEgCCgC3FB3SDNYi-DhYYDX2K2dbTt34hObT_4OWHjidKK8"
+    alt="Voice Dubbing App"
+    className="rounded-md mb-4 w-full h-48 object-cover"
+  />
+  <div className="flex justify-between mb-3">
+    <a
+      href="https://voice-dub.netlify.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600 transition"
+    >
+      View
+    </a>
+    <button
+      onClick={() => document.getElementById('tech4').classList.toggle('hidden')}
+      className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+    >
+      Tech Stack
+    </button>
+    <button
+      onClick={() =>
+        openModal(
+          "Voice Dubbing App converts Hindi audio files into English audio using Google Cloud services. Users can upload audio, preview both versions, and listen to real-time dubbed output."
+        )
+      }
+      className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition"
+    >
+      Know More
+    </button>
+  </div>
+  <div id="tech4" className="hidden text-sm text-gray-200 mt-2 space-y-1">
+    <p>Frontend: Next.js</p>
+    <p>Backend: Node.js</p>
+    <p>APIs Used: Google Cloud Speech-to-Text, Translate API, Text-to-Speech</p>
+    <p>Features: Audio Upload, Playback, Real-time Voice Conversion</p>
+  </div>
+</div>
       </div>
       {/* Modal */}
 {isModalOpen && (
@@ -371,6 +412,18 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
         </h3>
         <p className="text-sm text-gray-600">Demo video showing donation lifecycle and food rescue features.</p>
       </a>
+      <a
+  href="https://drive.google.com/file/d/1Yx89zPL9BySLal9BLOVH2362KWL72IhT/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-blue-200 shadow-lg rounded-2xl p-6 hover:shadow-2xl hover:scale-105 transition-all duration-300 text-left"
+>
+  <h3 className="text-xl font-semibold text-blue-800 mb-2">
+    🎙️ Voice Dubbing App
+  </h3>
+  <p className="text-sm text-gray-600">Watch how Hindi audio gets converted to English using AI-powered dubbing.</p>
+</a>
+
     </div>
   )}
 </div>
