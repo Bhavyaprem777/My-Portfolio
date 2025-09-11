@@ -1,6 +1,7 @@
 // src/App.js
 import React, { useState } from 'react';
 import PortfolioPage from './PortfolioPage';
+import { Briefcase } from 'lucide-react';
 import {
   User,
   Code,
@@ -44,6 +45,13 @@ const App = () => {
       className="flex items-center gap-3 hover:bg-blue-700 px-4 py-2 rounded transition"
     >
       <Code size={20} /> Skills
+    </a>
+    <a
+      href="#experience"
+      onClick={() => setSidebarOpen(false)}
+      className="flex items-center gap-3 hover:bg-blue-700 px-4 py-2 rounded transition"
+    >
+      <Briefcase size={20} /> Technical Experience
     </a>
     <a
       href="#projects"

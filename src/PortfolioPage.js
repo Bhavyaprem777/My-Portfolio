@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { FiServer } from "react-icons/fi"; 
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {
@@ -14,6 +15,7 @@ import {
   SiTailwindcss,
   SiFirebase,
   SiVercel,
+  SiTypescript, SiNetlify, SiDocker
 } from 'react-icons/si';
 
 
@@ -115,7 +117,7 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
   </p>
 <div className="mt-8 text-center" data-aos="fade-up">
   <a
-    href="https://drive.google.com/file/d/1Z761xicFPgCtYsCDQCqTnNiszXkDRnp5/view?usp=sharing"
+    href="https://drive.google.com/file/d/1WY9LCyaA8UuxoC4V1YyqRgj70-EUb7WM/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300 text-lg font-medium"
@@ -153,6 +155,9 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
         <Skill icon={<SiFirebase className="text-yellow-500 text-6xl mx-auto" />} name="Firebase" />
         <Skill icon={<FaFigma className="text-pink-500 text-6xl mx-auto" />} name="Figma" />
         <Skill icon={<SiVercel className="text-white text-6xl mx-auto" />} name="Vercel" />
+        <Skill icon={<SiNetlify className="text-green-500 text-6xl mx-auto" />} name="Netlify" />
+        <Skill icon={<SiTypescript className="text-blue-600 text-6xl mx-auto" />} name="TypeScript" />
+        <Skill icon={<SiDocker className="text-blue-400 text-6xl mx-auto" />} name="Docker" />
       </div>
     </div>
   </div>
@@ -176,6 +181,74 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
     </div>
   </div>
 </div>
+</section>
+<section id="experience" className="my-16 px-4">
+  <div className="p-6 md:p-10 flex flex-col md:flex-row items-start md:items-center md:space-x-10">
+
+    {/* Left Side Image */}
+    <div className="w-full md:w-1/3 mb-8 md:mb-0 flex-shrink-0" data-aos="fade-right">
+      <img 
+        src="https://thrivemyway.com/wp-content/uploads/2021/11/Computer-animation-software-e1638027651347.jpg" 
+        alt="Technical Experience" 
+        className="rounded-2xl shadow-xl w-full object-cover hover:scale-105 transition-transform duration-300"
+      />
+    </div>
+
+    {/* Right Side Content */}
+    <div className="w-full md:w-2/3 flex-shrink" data-aos="fade-left">
+      {/* Heading */}
+      <h2 className="text-3xl font-bold mb-8 text-center md:text-left relative inline-block">
+        Technical Experience
+        <span className="absolute -bottom-2 left-0 h-1 bg-pink-500 rounded-full w-full"></span>
+      </h2>
+
+      {/* Internship Card */}
+      <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-6 rounded-2xl shadow-2xl mb-6 hover:shadow-pink-500 transition-shadow duration-300">
+        <h3 className="text-2xl font-bold mb-3 text-pink-400 flex items-center gap-2 flex-wrap">
+          <span className="text-white text-xl">💼</span> Internship — The Tann Mann Gaadi, Bangalore, India (Ongoing)
+        </h3>
+        <p className="text-gray-300 mb-2"><strong>Project:</strong> SWIFTZE</p>
+        <p className="text-gray-300 mb-2"><strong>Duration:</strong> March 2025 – Present</p>
+        <p className="text-gray-300 mb-4"><strong>Role:</strong> Frontend Developer / Temporary Lead</p>
+
+        {/* Tasks */}
+        <ul className="text-gray-300 space-y-3">
+          <li className="flex items-start gap-2 flex-wrap">
+            <span className="text-pink-400 mt-1">✔️</span> Developing the <strong>UI/UX</strong> for an e-commerce platform connecting tailors and customers.
+          </li>
+          <li className="flex items-start gap-2 flex-wrap">
+            <span className="text-pink-400 mt-1">✔️</span> Integrating <strong>APIs</strong> to fetch and display real-time data dynamically.
+          </li>
+          <li className="flex items-start gap-2 flex-wrap">
+            <span className="text-pink-400 mt-1">✔️</span> Coordinating tasks and deadlines as <strong>temporary lead</strong>, ensuring smooth project progress.
+          </li>
+          <li className="flex items-start gap-2 flex-wrap">
+            <span className="text-pink-400 mt-1">✔️</span> Collaborating with the team to maintain workflow efficiency and deliver high-quality features.
+          </li>
+        </ul>
+
+        {/* Technologies Used */}
+        <div className="mt-6 flex flex-wrap gap-3">
+          <div className="flex items-center gap-2 bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+            <FaReact /> React.js
+          </div>
+          <div className="flex items-center gap-2 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+            <FaJs /> JavaScript
+          </div>
+          <div className="flex items-center gap-2 bg-yellow-400 text-black px-3 py-1 rounded-full text-sm font-semibold">
+            <FiServer /> API
+          </div>
+          <div className="flex items-center gap-2 bg-blue-400 text-white px-3 py-1 rounded-full text-sm font-semibold">
+            <SiTailwindcss /> Tailwind
+          </div>
+          <div className="flex items-center gap-2 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+            <SiVercel /> Vercel
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </section>
 <section id="projects" className="my-8 px-4">
 <div className="p-8">
@@ -431,60 +504,64 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
 </section>
 
 <section id="education" className="my-8 px-4">
-<div className="p-8 flex flex-col md:flex-row items-center justify-center gap-12" data-aos="fade-up">
-  {/* Education Section */}
-  <div className="flex-1" data-aos="fade-right">
-    <h2 className="text-3xl font-bold text-center mb-10 relative inline-block text-white">
-      Education
-      <span className="absolute -bottom-2 left-0 w-full h-1 bg-pink-500 rounded-full"></span>
-    </h2>
+  <div className="p-8 flex flex-col md:flex-row items-center justify-center gap-12" data-aos="fade-up">
+    {/* Education Section */}
+    <div className="flex-1" data-aos="fade-right">
+      <h2 className="text-3xl font-bold text-center mb-10 relative inline-block text-white">
+        Education
+        <span className="absolute -bottom-2 left-0 w-full h-1 bg-pink-500 rounded-full"></span>
+      </h2>
 
-    <div className="relative border-l-4 border-pink-500 pl-6 max-w-3xl mx-auto space-y-10">
-      {/* School */}
-      <div className="flex items-start gap-4 bg-[#2c3e50] p-4 rounded-xl shadow-md">
-        <div className="bg-pink-500 text-white p-3 rounded-full shadow-lg">
-          <i className="fas fa-school text-xl"></i>
+      <div className="relative border-l-4 border-pink-500 pl-6 max-w-3xl mx-auto space-y-10">
+        {/* School */}
+        <div className="flex items-start gap-4 bg-[#2c3e50] p-4 rounded-xl shadow-md">
+          <div className="bg-pink-500 text-white p-3 rounded-full shadow-lg">
+            <i className="fas fa-school text-xl"></i>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold text-white">School (2019–2020)</h3>
+            <p className="text-sm text-gray-300">Vowel Techlan School, Nellore, Andhra Pradesh</p>
+            <p className="text-sm text-gray-300"><strong>Percentage:</strong> 95.8%</p>
+          </div>
         </div>
-        <div>
-          <h3 className="text-xl font-semibold text-white">School (2019–2020)</h3>
-          <p className="text-sm text-gray-300">Vowel Techlan School, Nellore, Andhra Pradesh</p>
-        </div>
-      </div>
 
-      {/* Intermediate */}
-      <div className="flex items-start gap-4 bg-[#2c3e50] p-4 rounded-xl shadow-md">
-        <div className="bg-pink-500 text-white p-3 rounded-full shadow-lg">
-          <i className="fas fa-book-open text-xl"></i>
+        {/* Intermediate */}
+        <div className="flex items-start gap-4 bg-[#2c3e50] p-4 rounded-xl shadow-md">
+          <div className="bg-pink-500 text-white p-3 rounded-full shadow-lg">
+            <i className="fas fa-book-open text-xl"></i>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold text-white">Intermediate – MPC (2020–2022)</h3>
+            <p className="text-sm text-gray-300">Vowel Junior College, Nellore, Andhra Pradesh</p>
+            <p className="text-sm text-gray-300"><strong>Percentage:</strong> 98%</p>
+          </div>
         </div>
-        <div>
-          <h3 className="text-xl font-semibold text-white">Intermediate – MPC (2020–2022)</h3>
-          <p className="text-sm text-gray-300">Vowel Junior College, Nellore, Andhra Pradesh</p>
-        </div>
-      </div>
 
-      {/* B.Tech */}
-      <div className="flex items-start gap-4 bg-[#2c3e50] p-4 rounded-xl shadow-md">
-        <div className="bg-pink-500 text-white p-3 rounded-full shadow-lg">
-          <i className="fas fa-graduation-cap text-xl"></i>
-        </div>
-        <div>
-          <h3 className="text-xl font-semibold text-white">B.Tech – CSE (2022–2026)</h3>
-          <p className="text-sm text-gray-300">Mohan Babu University, Tirupati, Andhra Pradesh</p>
+        {/* B.Tech */}
+        <div className="flex items-start gap-4 bg-[#2c3e50] p-4 rounded-xl shadow-md">
+          <div className="bg-pink-500 text-white p-3 rounded-full shadow-lg">
+            <i className="fas fa-graduation-cap text-xl"></i>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold text-white">B.Tech – CSE (2022–2026)</h3>
+            <p className="text-sm text-gray-300">Mohan Babu University, Tirupati, Andhra Pradesh</p>
+            <p className="text-sm text-gray-300"><strong>Current CGPA:</strong> 10/10 (first 6 semesters)</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  {/* Graduation Cap Animation (image with AOS) */}
-  <div data-aos="fade-left">
-    <img 
-      src=" https://cdn-icons-png.flaticon.com/512/3135/3135755.png" 
-      alt="Graduation Cap"
-      className="w-64 h-auto object-contain drop-shadow-lg"
-    />
+    {/* Graduation Cap Animation (image with AOS) */}
+    <div data-aos="fade-left">
+      <img 
+        src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png" 
+        alt="Graduation Cap"
+        className="w-64 h-auto object-contain drop-shadow-lg"
+      />
+    </div>
   </div>
-</div>
 </section>
+
 <section id="contact" className="my-8 px-4">
 <div className="p-8 max-w-7xl mx-auto grid grid-cols-1 gap-10" data-aos="fade-up">
   {/* Contact Me Heading */}
@@ -587,9 +664,7 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
 </div>
 </div>
 </section>
-
 </div>
-
 
 );
 };
