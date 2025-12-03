@@ -65,3 +65,4 @@ npm install
 npm start
 
 5)Open your browser and visit http://localhost:3000 to view the portfolio website.
+OR vISIT MY PORTFOLIO AT: https://my-portfolio-eta-one-72.vercel.app/
