@@ -9,6 +9,8 @@ import {
   FaNodeJs,
   FaReact,
   FaFigma,
+  FaJava,
+  FaPython,
 } from 'react-icons/fa';
 import {
   SiMongodb,
@@ -112,12 +114,17 @@ const PortfolioPage = () => {
   </h2>
 </div>
 
-<p className="mt-8">
-Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Science. I'm an aspiring and detail-oriented software developer with a strong foundation in full-stack web development, especially the MERN stack. I love building user-friendly, scalable applications that solve real-world problems. I'm always eager to explore new technologies, take on challenging projects, and grow as a developer. With a focus on clean code and continuous learning, I aim to create meaningful digital experiences that leave a lasting impact.
+<p className="text-xl mt-8">
+Hi, I'm Chebrolu Bhavyasree, Computer Science graduate with hands-on experience in full-stack development and building web
+applications. Incoming MSc Advanced Computer Science student at the University of
+Birmingham (January 2027), with a keen interest in Artificial Intelligence, Machine Learning
+and Natural Language Processing. Interested in opportunities combining technology, research
+and communication. Currently developing a Software Incident Intelligence Hub from the
+ground up.
   </p>
 <div className="mt-8 text-center" data-aos="fade-up">
   <a
-    href="https://drive.google.com/file/d/1WY9LCyaA8UuxoC4V1YyqRgj70-EUb7WM/view?usp=sharing"
+    href="https://drive.google.com/file/d/1nwpfDQ05PEKLV8nNPb_s0PLnpl3MfLvv/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300 text-lg font-medium"
@@ -148,16 +155,18 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
         <Skill icon={<FaHtml5 className="text-orange-600 text-6xl mx-auto" />} name="HTML" />
         <Skill icon={<FaCss3Alt className="text-blue-600 text-6xl mx-auto" />} name="CSS" />
         <Skill icon={<FaJs className="text-yellow-400 text-6xl mx-auto" />} name="JavaScript" />
+        <Skill icon={<FaJava className="text-red-500 text-6xl mx-auto" />} name="Java" />
+        <Skill icon={<FaPython className="text-blue-400 text-6xl mx-auto" />} name="Python" />
         <Skill icon={<FaNodeJs className="text-green-600 text-6xl mx-auto" />} name="Node.js" />
-        <Skill icon={<SiMongodb className="text-green-500 text-6xl mx-auto" />} name="MongoDB" />
+        {/*<Skill icon={<SiMongodb className="text-green-500 text-6xl mx-auto" />} name="MongoDB" />*/}
         <Skill icon={<FaReact className="text-cyan-400 text-6xl mx-auto" />} name="React" />
         <Skill icon={<SiTailwindcss className="text-blue-400 text-6xl mx-auto" />} name="Tailwind" />
         <Skill icon={<SiFirebase className="text-yellow-500 text-6xl mx-auto" />} name="Firebase" />
         <Skill icon={<FaFigma className="text-pink-500 text-6xl mx-auto" />} name="Figma" />
         <Skill icon={<SiVercel className="text-white text-6xl mx-auto" />} name="Vercel" />
         <Skill icon={<SiNetlify className="text-green-500 text-6xl mx-auto" />} name="Netlify" />
-        <Skill icon={<SiTypescript className="text-blue-600 text-6xl mx-auto" />} name="TypeScript" />
-        <Skill icon={<SiDocker className="text-blue-400 text-6xl mx-auto" />} name="Docker" />
+        {/*<Skill icon={<SiTypescript className="text-blue-600 text-6xl mx-auto" />} name="TypeScript" />*/}
+        {/*<Skill icon={<SiDocker className="text-blue-400 text-6xl mx-auto" />} name="Docker" />*/}
       </div>
     </div>
   </div>
@@ -209,28 +218,22 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
       {/* ---------------- FIRST INTERNSHIP CARD ---------------- */}
       <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-6 rounded-2xl shadow-2xl mb-8 hover:shadow-pink-500 transition-shadow duration-300">
         <h3 className="text-2xl font-bold mb-3 text-pink-400 flex items-center gap-2 flex-wrap">
-          <span className="text-white text-xl">💼</span> Internship — The Tann Mann Gaadi, Bangalore, India (Ongoing)
+          <span className="text-white text-xl">💼</span> Internship — The Tann Mann Gaadi, Bangalore, India (Remote)
         </h3>
 
         <p className="text-gray-300 mb-2"><strong>Project:</strong> SWIFTZE</p>
-        <p className="text-gray-300 mb-2"><strong>Duration:</strong> March 2025 – Present</p>
+        <p className="text-gray-300 mb-2"><strong>Duration:</strong> March 2025 – September 2025</p>
         <p className="text-gray-300 mb-4"><strong>Role:</strong> Frontend Developer / Temporary Lead</p>
 
-        {/* Tasks */}
-        <ul className="text-gray-300 space-y-3">
-          <li className="flex items-start gap-2 flex-wrap">
-            <span className="text-pink-400 mt-1">✔️</span> Developing the <strong>UI/UX</strong> for an e-commerce platform connecting tailors and customers.
-          </li>
-          <li className="flex items-start gap-2 flex-wrap">
-            <span className="text-pink-400 mt-1">✔️</span> Integrating <strong>APIs</strong> to fetch and display real-time data dynamically.
-          </li>
-          <li className="flex items-start gap-2 flex-wrap">
-            <span className="text-pink-400 mt-1">✔️</span> Coordinating tasks and deadlines as <strong>temporary lead</strong>, ensuring smooth progress.
-          </li>
-          <li className="flex items-start gap-2 flex-wrap">
-            <span className="text-pink-400 mt-1">✔️</span> Collaborating with the team to maintain workflow efficiency and deliver high-quality features.
-          </li>
-        </ul>
+       {/* Tasks */}
+<p className="text-gray-300 leading-relaxed text-justify">
+  Designed and developed UI/UX components for an e-commerce platform
+  connecting customers with tailoring services. Integrated APIs to
+  retrieve and dynamically display application data. Took on temporary
+  team leadership responsibilities, coordinating task allocation,
+  timelines and development progress while collaborating with team
+  members to streamline workflows and deliver quality features.
+</p>
 
         {/* Technologies Used */}
         <div className="mt-6 flex flex-wrap gap-3">
@@ -258,25 +261,19 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
           <span className="text-white text-xl">💼</span> Internship — Bizowl, New Delhi, India (Remote)
         </h3>
 
-        <p className="text-gray-300 mb-2"><strong>Project:</strong> Multi-Platform UI & Firebase Integration</p>
-        <p className="text-gray-300 mb-2"><strong>Duration:</strong> September 2025 – Present</p>
+        <p className="text-gray-300 mb-2"><strong>Project:</strong> BIZOWL</p>
+        <p className="text-gray-300 mb-2"><strong>Duration:</strong> December 2025 – July 2026</p>
         <p className="text-gray-300 mb-4"><strong>Role:</strong> Full Stack Developer Intern</p>
 
-        {/* Tasks */}
-        <ul className="text-gray-300 space-y-3">
-          <li className="flex items-start gap-2 flex-wrap">
-            <span className="text-pink-400 mt-1">✔️</span> Building <strong>modular, scalable UI components</strong> with React.js and Chakra UI.
-          </li>
-          <li className="flex items-start gap-2 flex-wrap">
-            <span className="text-pink-400 mt-1">✔️</span> Implementing <strong>Firebase Authentication</strong> & real-time Firestore database updates.
-          </li>
-          <li className="flex items-start gap-2 flex-wrap">
-            <span className="text-pink-400 mt-1">✔️</span> Enhancing accessibility and maintaining UI consistency across platforms.
-          </li>
-          <li className="flex items-start gap-2 flex-wrap">
-            <span className="text-pink-400 mt-1">✔️</span> Collaborating with cross-functional teams to deliver <strong>responsive, user-friendly</strong> applications.
-          </li>
-        </ul>
+      {/* Tasks */}
+<p className="text-gray-300 leading-relaxed text-justify">
+  Developed modular, reusable and scalable UI components using React.js
+  and Chakra UI. Integrated Firebase Authentication and Cloud Firestore
+  to support secure user authentication and real-time data synchronisation.
+  Improved interface accessibility, responsiveness and visual consistency
+  while collaborating with cross-functional teams to deliver intuitive,
+  user-friendly application features.
+</p>
 
         {/* Technologies Used */}
         <div className="mt-6 flex flex-wrap gap-3">
@@ -302,6 +299,89 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
   </div>
 </section>
 
+<section id="research" className="my-8 px-4">
+  <div className="p-8">
+    <h2
+      className="text-3xl font-bold text-center mb-10 relative inline-block"
+      data-aos="fade-up"
+    >
+      Research & Publications
+      <span className="absolute -bottom-2 left-0 w-full h-1 bg-pink-500 rounded-full"></span>
+    </h2>
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      {/* Research Paper 1 */}
+      <div
+        className="p-6 rounded-xl border border-gray-700 bg-gray-900/50 hover:border-pink-500 transition-all duration-300"
+        data-aos="fade-up"
+      >
+        <span className="text-pink-400 text-sm font-semibold">
+          Research Paper 01
+        </span>
+
+        <h3 className="text-xl font-bold text-white mt-3 mb-3">
+          Adaptive Graph-Based Sharding for Reducing Cross-Shard Transactions in NFT Systems
+        </h3>
+
+        <p className="text-sm text-gray-400 mb-4">
+          2nd International Conference on Computational Innovations and Emerging Trends (ICCIET 2026)
+        </p>
+
+        <p className="text-gray-300 leading-relaxed mb-4">
+          Explores graph-based sharding techniques for NFT systems, leveraging
+          graph relationships to guide asset distribution across shards.
+          The proposed approach aims to minimise cross-shard transactions,
+          reduce communication overhead and improve transaction efficiency.
+        </p>
+
+        <p className="text-xs text-gray-400 mb-3">
+          Mohan Babu University, Tirupati, India | April 17–18, 2026
+        </p>
+
+        <span className="inline-block px-3 py-1 text-xs rounded-full bg-pink-500/10 text-pink-400 border border-pink-500/30">
+          Accepted · Proceedings Pending
+        </span>
+      </div>
+
+      {/* Research Paper 2 */}
+      <div
+        className="p-6 rounded-xl border border-gray-700 bg-gray-900/50 hover:border-pink-500 transition-all duration-300"
+        data-aos="fade-up"
+        data-aos-delay="150"
+      >
+        <span className="text-pink-400 text-sm font-semibold">
+          Research Paper 02
+        </span>
+
+        <h3 className="text-xl font-bold text-white mt-3 mb-3">
+          A Sharded Blockchain Architecture for Scalable and Efficient NFT Asset Management
+        </h3>
+
+        <p className="text-sm text-gray-400 mb-4">
+          Device Intelligence, Computing and Communication Technologies (DICCT 2026)
+        </p>
+
+        <p className="text-gray-300 leading-relaxed mb-4">
+          Proposes a sharded blockchain architecture for NFT asset management,
+          exploring how partitioning blockchain workloads across multiple
+          shards can improve scalability, distribute processing demands
+          and support more efficient asset management.
+        </p>
+
+        <p className="text-xs text-gray-400 mb-3">
+          Graphic Era (Deemed to be University), Dehradun, India | April 24–25, 2026
+        </p>
+
+        <span className="inline-block px-3 py-1 text-xs rounded-full bg-pink-500/10 text-pink-400 border border-pink-500/30">
+          Accepted for Presentation · Paper ID: 1413
+        </span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <section id="projects" className="my-8 px-4">
 <div className="p-8">
       <h2 className="text-3xl font-bold text-center mb-10 relative inline-block" data-aos="fade-up">
@@ -310,6 +390,55 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        {/* Project - Software Incident Intelligence Hub */}
+<div className="bg-[#2c3e50] rounded-xl p-6 shadow-lg" data-aos="fade-up">
+  <div className="flex items-center justify-between mb-4">
+    <h3 className="text-xl font-semibold text-white">Software Incident Intelligence Hub</h3>
+    <span className="bg-amber-500/20 text-amber-300 text-xs font-medium px-2.5 py-1 rounded-full border border-amber-400/30">
+      In Progress
+    </span>
+  </div>
+
+  <img
+    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+    alt="Software Incident Intelligence Hub"
+    className="rounded-md mb-4 w-full h-48 object-cover"
+  />
+
+  <div className="flex justify-between mb-3">
+    <a
+      href="https://github.com/Bhavyaprem777/Software_Incident_Intelligence_Hub"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600 transition"
+    >
+      View
+    </a>
+    <button
+      onClick={() => document.getElementById('tech-incident-hub').classList.toggle('hidden')}
+      className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+    >
+      Tech Stack
+    </button>
+    <button
+      onClick={() =>
+        openModal(
+          "Currently developing a full-stack incident management and operational intelligence platform from the ground up. Designed to log live system failures, track root-cause troubleshooting workflows, and integrate structured documentation via Confluence."
+        )
+      }
+      className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition"
+    >
+      Know More
+    </button>
+  </div>
+
+  <div id="tech-incident-hub" className="hidden text-sm text-gray-200 mt-2 space-y-1">
+    <p>Frontend: React.js, Tailwind CSS</p>
+    <p>Backend & DB: Node.js, Firebase</p>
+    <p>Documentation & Workflow: Confluence (Planned integrations in progress)</p>
+  </div>
+</div>
         {/* Project 1 - Hospital Management */}
         <div className="bg-[#2c3e50] rounded-xl p-6 shadow-lg" data-aos="fade-up">
           <h3 className="text-xl font-semibold text-white mb-4">Hospital Management System</h3>
@@ -362,7 +491,7 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
               rel="noopener noreferrer"
               className="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600 transition"
             >
-              View
+              View(only UI)
             </a>
             <button
               onClick={() => document.getElementById('tech2').classList.toggle('hidden')}
@@ -388,8 +517,8 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
         <div className="relative">
   {/* Mail & Password Info */}
   <div className="absolute -bottom-24 left-1/2 transform -translate-x-1/2 bg-white text-black text-sm px-4 py-2 rounded shadow-md z-10">
-    <p><strong>Mail:</strong> bhavyasreechebrolu@gmail.com</p>
-    <p><strong>Password:</strong> 72117211</p>
+    <p><strong>Mail:</strong> demo@example.com</p>
+    <p><strong>Password:</strong> demo@123</p>
   </div>
 
         <div className="bg-[#2c3e50] rounded-xl p-6 shadow-lg" data-aos="fade-up">
@@ -483,7 +612,7 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
   />
   <div className="flex justify-between mb-3">
     <a
-      href="https://github.com/Bhavyaprem777/Employee-Attendance-System"
+      href="https://employee-attendance-system-omega.vercel.app/"
       target="_blank"
       rel="noopener noreferrer"
       className="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600 transition cursor-not-allowed"
@@ -624,15 +753,16 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
       </h2>
 
       <div className="relative border-l-4 border-pink-500 pl-6 max-w-3xl mx-auto space-y-10">
-        {/* School */}
+
+         {/* B.Tech */}
         <div className="flex items-start gap-4 bg-[#2c3e50] p-4 rounded-xl shadow-md">
           <div className="bg-pink-500 text-white p-3 rounded-full shadow-lg">
-            <i className="fas fa-school text-xl"></i>
+            <i className="fas fa-graduation-cap text-xl"></i>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-white">School (2019–2020)</h3>
-            <p className="text-sm text-gray-300">Vowel Techlan School, Nellore, Andhra Pradesh</p>
-            <p className="text-sm text-gray-300"><strong>Percentage:</strong> 95.8%</p>
+            <h3 className="text-xl font-semibold text-white">Bachelor of Technology (B.Tech) – Computer Science and Engineering (2022–2026)</h3>
+            <p className="text-sm text-gray-300">Mohan Babu University, Tirupati, Andhra Pradesh</p>
+            <p className="text-sm text-gray-300"><strong>CGPA:</strong> 9.97/10 </p>
           </div>
         </div>
 
@@ -648,15 +778,15 @@ Hi, I'm Chebrolu Bhavyasree, currently persuing Bachelor's degree in Computer Sc
           </div>
         </div>
 
-        {/* B.Tech */}
+       {/* School */}
         <div className="flex items-start gap-4 bg-[#2c3e50] p-4 rounded-xl shadow-md">
           <div className="bg-pink-500 text-white p-3 rounded-full shadow-lg">
-            <i className="fas fa-graduation-cap text-xl"></i>
+            <i className="fas fa-school text-xl"></i>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-white">B.Tech – CSE (2022–2026)</h3>
-            <p className="text-sm text-gray-300">Mohan Babu University, Tirupati, Andhra Pradesh</p>
-            <p className="text-sm text-gray-300"><strong>Current CGPA:</strong> 10/10 (first 6 semesters)</p>
+            <h3 className="text-xl font-semibold text-white">School (2019–2020)</h3>
+            <p className="text-sm text-gray-300">Vowel Techlan School, Nellore, Andhra Pradesh</p>
+            <p className="text-sm text-gray-300"><strong>Percentage:</strong> 95.8%</p>
           </div>
         </div>
       </div>

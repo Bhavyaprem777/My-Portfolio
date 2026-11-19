@@ -8,7 +8,8 @@ import {
   FolderOpen,
   GraduationCap,
   Mail,
-  Menu
+  Menu,
+  FileText
 } from 'lucide-react';
 
 const App = () => {
@@ -53,6 +54,15 @@ const App = () => {
     >
       <Briefcase size={20} /> Technical Experience
     </a>
+
+    <a
+      href="#research"
+      onClick={() => setSidebarOpen(false)}
+      className="flex items-center gap-3 hover:bg-blue-700 px-4 py-2 rounded transition"
+    >
+      <FileText size={20} /> Research & Publications
+    </a>
+
     <a
       href="#projects"
       onClick={() => setSidebarOpen(false)}
