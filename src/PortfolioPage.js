@@ -104,7 +104,7 @@ const PortfolioPage = () => {
 <div className="sm:ml-8 w-full sm:w-2/3 text-center sm:text-left" data-aos="fade-up">
 <div className="text-center mb-4">
 <h2 className="text-3xl font-bold absolute left-[-20px] top-[-20px]">
-    CHEBROLU BHAVYASREE
+    BHAVYASREE CHEBROLU
 </h2>
 
 <h2 className="text-3xl font-semibold inline-block relative mt-12">
@@ -114,7 +114,7 @@ const PortfolioPage = () => {
 </div>
 
 <p className="text-xl mt-8">
-Hi, I'm Chebrolu Bhavyasree, Computer Science graduate with hands-on experience in full-stack development and building web
+Hi, I'm Bhavyasree Chebrolu, Computer Science graduate with hands-on experience in full-stack development and building web
 applications. Incoming MSc Advanced Computer Science student at the University of
 Birmingham (January 2027), with a keen interest in Artificial Intelligence, Machine Learning
 and Natural Language Processing. Interested in opportunities combining technology, research
