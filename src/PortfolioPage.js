@@ -13,11 +13,10 @@ import {
   FaPython,
 } from 'react-icons/fa';
 import {
-  SiMongodb,
   SiTailwindcss,
   SiFirebase,
   SiVercel,
-  SiTypescript, SiNetlify, SiDocker,  SiChakraui
+   SiNetlify, 
 } from 'react-icons/si';
 
 
